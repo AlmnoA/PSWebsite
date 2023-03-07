@@ -1,57 +1,31 @@
 :root {
-
+    --Bluer: #0093C9;
+    --greenr: #80BC00;
+    --yellowr: #FDE021;
+    --oranger: #FF4D00;
+    --blackr: #231f20;
+    --whiter: #FFFFFF;
+    --darkBluer: #002856;
 }
+
 .Navbar {
-    Padding-top: 2rem;
-    background-color: var(--Charcoal);
-    position: sticky;
-    z-index: 999;
-    top: 0;
+    margin-top: 2rem;
+height: 4rem;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to right, 75% var(--Charcoal), #232134);
+    grid-template-columns: 2fr 1fr 2fr;
+    background-color: aquamarine;
+    background-image: linear-gradient(to top, var(--darkBluer),  var(--blackr))
 }
 
-.Nav-title {
-    z-index: 1;
-    margin-right: 1;
-    width: 100%;
-    text-align: center;
-    font-size: 3rem;
-    color: white;
-    height: 75px;
-    background-image: radial-gradient(var(--PineGreen) 0%, var(--Cobalt) 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
-}
-
-.Nav-item-container {
-    width: 100%;
+.Nav-logo {
+    height: 10rem;
+    width: 10rem;
     display: flex;
-    font-size: 1.5rem;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+z-index: 1;
 }
 
 .Nav-item {
-    margin-right: auto;
-    width: 100%;
-    text-align: center;
-    transition: all .4s ease;
-}
-
-.Nav-item:hover {
-
-    scale: 1.5;
-    transition: all .4s ease;
-    z-index: 2;
-}
-
-.Nav-item a {
-    text-decoration: inherit;
-    color: var(--TimberWolf);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
