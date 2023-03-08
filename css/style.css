@@ -9,23 +9,33 @@
 }
 
 .Navbar {
-    margin-top: 2rem;
-height: 4rem;
+    height: 4rem;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     background-color: aquamarine;
     background-image: linear-gradient(to top, var(--darkBluer),  var(--blackr))
 }
-
-.Nav-logo {
+.whitespace{
+height: 3rem;
+}
+.Nav-logo img{
+    z-index: 1;
+    display: flex;
     height: 10rem;
     width: 10rem;
-    display: flex;
-    margin: auto;
-z-index: 1;
+margin: auto;
 }
 
 .Nav-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.Nav-item a{
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--whiter);
+}
+.caraousel-item img{
+height: 1v;
 }
