@@ -117,11 +117,14 @@ text-decoration:line-through;
     margin: 1rem 2rem ;
     border-radius: 1rem;
 }
-.Info-card:nth-child(1){
+.Info-card:nth-child(odd){
     background-color: var(--Bluer);
     grid-template-columns: 1fr 3fr;
 }
 .Info-text{
     padding: 2rem;
 color: var(--whiter);
+}
+.Info-text-real{
+    font-size: 1.5rem;
 }
