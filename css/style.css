@@ -116,10 +116,17 @@ text-decoration:line-through;
     background-color: var(--darkBluer);
     margin: 1rem 2rem ;
     border-radius: 1rem;
+    overflow: hidden;
+    transition: ease-in .5s;
 }
 .Info-card:nth-child(odd){
     background-color: var(--Bluer);
     grid-template-columns: 1fr 3fr;
+    
+}
+.Info-card:hover{
+scale: 1.01;
+transition: ease-in 1s;
 }
 .Info-text{
     padding: 2rem;
